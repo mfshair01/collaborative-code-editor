@@ -33,4 +33,4 @@ jobs:
         run: docker build -t mfshair01/collaborative-code-editor:mfshair01 .
 
       - name: Push Docker image
-        run: docker push your-dockerhub-username/collaborative-code-editor:mfshair01
+        run: docker push mfshair01/collaborative-code-editor:mfshair01
